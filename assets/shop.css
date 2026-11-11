@@ -315,3 +315,6 @@ salla-slider,salla-installment{display:block}
 .ish-pdp-story .pp-desc-t{display:none}
 .ish-pdp-story .product__description.box{background:transparent;border:0}
 .pp-main[hidden]{display:none}
+
+/* the footer starts below the first screen, so it does not jump while the page fills in */
+.app-inner>main{min-height:100vh}
